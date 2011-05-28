@@ -14,6 +14,12 @@ gem 'uglifier'
 
 gem 'jquery-rails'
 
+group :development, :test do
+  gem "rspec-rails"
+  gem "cucumber-rails"
+  gem "webrat"
+end
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
