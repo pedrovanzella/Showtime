@@ -20,6 +20,10 @@ group :development, :test do
   gem "webrat"
 end
 
+group :test do
+  gem "database_cleaner"
+end
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
